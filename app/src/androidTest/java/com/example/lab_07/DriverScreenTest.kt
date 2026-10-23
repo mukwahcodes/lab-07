@@ -81,8 +81,8 @@ class DriverScreenTest {
             .onNodeWithText("Clear")
             .performClick()
 
-        composeTestRule.onNodeWithText("Verstappen").assertDoesNotExist()
-        composeTestRule.onNodeWithText("Leclerc").assertDoesNotExist()
+        composeTestRule.onNodeWithText("Cat").assertDoesNotExist()
+        composeTestRule.onNodeWithText("Random").assertDoesNotExist()
     }
 
     // Verify the back button returns to HomeScreen
